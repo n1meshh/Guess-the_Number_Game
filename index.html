@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess the Number</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
-    <script src="script.js"></script>
-    <div class="container">
-        <h1>Guess The Number</h1>
-        <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
-        <input type="number" id="guess" min = "1" max="100" placeholder="Enter your guess">
-        <button id="check">Check Guess</button>
-        <div id="message">
-
-        </div>
-        <div class="attempts">Attempts: <span id="attempts">0</span></div>
-    </div>
+  <div class="container">
+    <h1>Guess The Number</h1>
+    <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+    <input
+      type="number"
+      id="guess"
+      min="1"
+      max="100"
+      placeholder="Enter your guess"
+    />
+    <button id="check">Check Guess</button>
+    <div id="message"></div>
+    <div class="attemptsElement">Attempts: <span id="attempts">0</span></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
